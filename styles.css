@@ -1,0 +1,164 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+}
+
+.navbar {
+  background-color: #adc178; 
+  background-image: url(img/Captura\ de\ tela\ 2024-05-22\ 170703.png);
+}
+
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0) !important; 
+  background-color: white;
+  margin-right: 25px;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #B9C29E; 
+  color: white !important;
+  transform: scale(1.5);
+}
+
+.Fundo_do_main {
+  background: rgb(243,231,209);
+  background: linear-gradient(180deg, rgba(243,231,209,1) 40%, rgb(13, 76, 134) 100%);
+}
+
+footer {
+  background-image: url(img/ondas.png);
+  background-position: 10px px;
+  background-color: rgb(13, 76, 134);
+  background-repeat:round
+}
+
+.rodape {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 110%;
+  background-color: rgba(0, 0, 0, 0); /* Fundo preto com 80% de opacidade */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1000; /* Garante que o rodapé ficará sobre o conteúdo */
+  backdrop-filter: blur(0.1px); /* Desfoque no fundo do rodapé */
+  
+}
+
+.rodape img {
+  background: transparent;
+  height: 100vh; 
+  object-fit: contain; 
+}
+
+.cabeçalho {
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo-img {
+  max-width: 10vw;
+  max-height: 10hw; 
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.conteudo {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 3vw;
+  padding: 2vw;
+  background-color: rgba(146, 165, 95, 0.596);
+  backdrop-filter: blur(5px);
+}
+
+header {
+  background-color: #f3e7d1;
+}
+
+strong{
+  font-size: 15px;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.carousel-inner{
+  border-radius: 10px;
+}
+
+iframe{
+  width: 43.5vw;
+  height: 29vw;
+  border-radius: 10px;
+}
+
+.strong_especial{
+  font-size: 28px;
+}
+
+.lista{
+  font-size: 24px;
+}
+
+.p_especial{
+  font-size: 25px;
+}
+
+.strong_especial2{
+  font-size: 28px;
+}
+
+.img-fluid{
+  border-radius: 10px;
+  width: 43.5vw;
+  height: 29vw;
+}
+
+.h1especial{
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff6347;
+}
